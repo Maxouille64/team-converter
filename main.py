@@ -1,7 +1,6 @@
 import tkinter
 from tkinter import *
 from team_converter import export_to_packed, packed_to_json
-import os
 
 def pack_team():
     file = open('team.txt','w')
